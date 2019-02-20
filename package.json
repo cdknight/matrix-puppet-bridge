@@ -1,0 +1,101 @@
+{
+  "_from": "github:matrix-hacks/matrix-puppet-bridge#2dca836",
+  "_id": "matrix-puppet-bridge@1.16.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/matrix-puppet-bridge",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "matrix-puppet-bridge@github:matrix-hacks/matrix-puppet-bridge#2dca836",
+    "name": "matrix-puppet-bridge",
+    "escapedName": "matrix-puppet-bridge",
+    "rawSpec": "github:matrix-hacks/matrix-puppet-bridge#2dca836",
+    "saveSpec": "github:matrix-hacks/matrix-puppet-bridge#2dca836",
+    "fetchSpec": null,
+    "gitCommittish": "2dca836"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:matrix-hacks/matrix-puppet-bridge#2dca836ab2dc42c9efdda031d51949d6714e7bf4",
+  "_spec": "matrix-puppet-bridge@github:matrix-hacks/matrix-puppet-bridge#2dca836",
+  "_where": "/root/matrixbots/matrix-puppet-hangouts",
+  "bugs": {
+    "url": "https://github.com/matrix-hacks/matrix-puppet-bridge/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Keyvan Fatehi"
+    },
+    {
+      "name": "Andrew Johnson"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "concat-stream": "^1.6.0",
+    "debug": "^2.6.0",
+    "matrix-appservice-bridge": "^1.4.0a",
+    "matrix-js-sdk": "^0.7.8",
+    "mime-types": "^2.1.14",
+    "needle": "^1.4.5",
+    "read": "^1.0.7",
+    "tempfile": "^1.1.1",
+    "tmp": "^0.0.31"
+  },
+  "deprecated": false,
+  "description": "facilitates writing a certain kind of matrix bridge",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "jsdoc": "^3.4.3"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0,
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/matrix-hacks/matrix-puppet-bridge#readme",
+  "keywords": [
+    "matrix"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "matrix-puppet-bridge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matrix-hacks/matrix-puppet-bridge.git"
+  },
+  "scripts": {
+    "gendoc": "jsdoc -r src -P package.json -R README.md -d docs",
+    "test": "echo \"no tests at this time\"; exit 1"
+  },
+  "version": "1.16.2"
+}
